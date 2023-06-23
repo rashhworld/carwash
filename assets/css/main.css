@@ -1,0 +1,90 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+label[class="error"] {
+  color: #E73635;
+  font-size: 14px;
+}
+
+
+.errors ul {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+/* p, */
+a {
+  margin-bottom: 0px !important;
+}
+
+.modal ::-webkit-scrollbar {
+  width: 5px;
+}
+
+.modal ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.modal ::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+.modal ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 5px;
+}
+
+.form-control.error,
+.form-select.error {
+  border: 1px solid #E73635 !important;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+.selectize-input {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.swal2-popup {
+  width: 31.5em !important;
+}
+
+i {
+  color: orange;
+}
+
+b {
+  font-weight: 500;
+}
+
+.centerData .card {
+  border-width: 4px;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+
+.auth-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

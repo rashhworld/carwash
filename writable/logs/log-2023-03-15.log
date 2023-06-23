@@ -1,0 +1,6 @@
+CRITICAL - 2023-03-15 14:33:28 --> Call to private method App\Controllers\BaseController::renderGlobalView() from scope App\Controllers\AdminControl
+#0 D:\Installation\XAMPP\htdocs\work\carwash\system\CodeIgniter.php(832): App\Controllers\AdminControl->showAdminAuth()
+#1 D:\Installation\XAMPP\htdocs\work\carwash\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminControl))
+#2 D:\Installation\XAMPP\htdocs\work\carwash\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Installation\XAMPP\htdocs\work\carwash\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
